@@ -96,7 +96,7 @@ export const Image = <T extends ImageExtended>(
           styles.tileViewport,
           styleContext
         )}
-        onClick={handleViewportClick}
+        onClick={handleCheckButtonClick}
       >
         {ThumbnailImageComponent ? (
           <ThumbnailImageComponent {...props} imageProps={thumbnailProps} />
